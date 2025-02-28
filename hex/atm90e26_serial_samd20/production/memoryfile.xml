@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/atm90e26_serial_samd20/production/metering_demo_atm90e26_serial_samd20.X.production.elf">
+    <memory name="program">
+      <units>bytes</units>
+      <length>262144</length>
+      <used>93791</used>
+      <free>168353</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>32768</length>
+      <used>16361</used>
+      <free>16407</free>
+    </memory>
+  </executable>
+</project>

@@ -1,0 +1,10 @@
+First Params mandatory
+mt   = Meter Type
+mc   = Meter Constant        (decimal)
+freq = Frequency 			 (2 decimal format)
+pga  = L Line Current Gain
+ps   = Start Active Power    (PStartTh Register - 1 decimal format - 16 bit unsigned integer, Unit:0.00032 Watt)
+qs   = Start Reactive Power  (QStartTh Register - 1 decimal format - 16 bit unsigned integer, Unit:0.00032 Var) 
+ss   = Start Apparent Power  (SStartTh Register - 1 decimal format - 16 bit unsigned integer, Unit:0.00032 VA)
+ug   = k_u
+ig   = k_i

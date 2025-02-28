@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="atm90e36_spi_samd20"
+                       displayName="atm90e36_spi_samd20"
+                       projectFiles="true">
+          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
+            <itemPath>../src/config/atm90e36_spi_samd20/bsp/bsp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="driver" displayName="driver" projectFiles="true">
+            <logicalFolder name="sdspi" displayName="sdspi" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/sdspi/src/drv_sdspi_file_system.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/sdspi/src/drv_sdspi_local.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/sdspi/drv_sdspi.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/sdspi/drv_sdspi_definitions.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/sdspi/src/drv_sdspi_plib_interface.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="spi" displayName="spi" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/spi/drv_spi.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/spi/src/drv_spi_local.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/spi/drv_spi_definitions.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/config/atm90e36_spi_samd20/driver/driver_common.h</itemPath>
+            <itemPath>../src/config/atm90e36_spi_samd20/driver/driver.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="osal" displayName="osal" projectFiles="true">
+            <itemPath>../src/config/atm90e36_spi_samd20/osal/osal_impl_basic.h</itemPath>
+            <itemPath>../src/config/atm90e36_spi_samd20/osal/osal_definitions.h</itemPath>
+            <itemPath>../src/config/atm90e36_spi_samd20/osal/osal.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="clock" displayName="clock" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/clock/plib_clock.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="eic" displayName="eic" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/eic/plib_eic.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/evsys/plib_evsys.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/nvic/plib_nvic.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="nvmctrl" displayName="nvmctrl" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/nvmctrl/plib_nvmctrl.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="pm" displayName="pm" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/pm/plib_pm.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="port" displayName="port" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/port/plib_port.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/rtc/plib_rtc.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
+              <logicalFolder name="spi_master" displayName="spi_master" projectFiles="true">
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/spi_master/plib_sercom1_spi_master.h</itemPath>
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/spi_master/plib_sercom5_spi_master.h</itemPath>
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/spi_master/plib_sercom0_spi_master.h</itemPath>
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/spi_master/plib_sercom_spi_master_common.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/usart/plib_sercom3_usart.h</itemPath>
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="tc" displayName="tc" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/tc/plib_tc0.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/tc/plib_tc_common.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="wdt" displayName="wdt" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/wdt/plib_wdt.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="system" displayName="system" projectFiles="true">
+            <logicalFolder name="command" displayName="command" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/command/sys_command.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="console" displayName="console" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/console/src/sys_console_uart_definitions.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/console/src/sys_console_local.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/console/src/sys_console_uart.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/console/sys_console.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="debug" displayName="debug" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/debug/sys_debug.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/debug/src/sys_debug_local.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="dma" displayName="dma" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/dma/sys_dma.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/dma/sys_dma_mapping.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="fs" displayName="fs" projectFiles="true">
+              <logicalFolder name="fat_fs" displayName="fat_fs" projectFiles="true">
+                <logicalFolder name="file_system" displayName="file_system" projectFiles="true">
+                  <itemPath>../src/config/atm90e36_spi_samd20/system/fs/fat_fs/file_system/ffconf.h</itemPath>
+                  <itemPath>../src/config/atm90e36_spi_samd20/system/fs/fat_fs/file_system/ff.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="hardware_access"
+                               displayName="hardware_access"
+                               projectFiles="true">
+                  <itemPath>../src/config/atm90e36_spi_samd20/system/fs/fat_fs/hardware_access/diskio.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/fs/src/sys_fs_media_manager_local.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/fs/sys_fs.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/fs/sys_fs_fat_interface.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/fs/sys_fs_media_manager.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/fs/src/sys_fs_local.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="int" displayName="int" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/int/sys_int.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/int/sys_int_mapping.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="ports" displayName="ports" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/ports/sys_ports_mapping.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/ports/sys_ports.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="reset" displayName="reset" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/reset/sys_reset.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="time" displayName="time" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/time/sys_time.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/time/src/sys_time_local.h</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/time/sys_time_definitions.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/config/atm90e36_spi_samd20/system/system_common.h</itemPath>
+            <itemPath>../src/config/atm90e36_spi_samd20/system/system_media.h</itemPath>
+            <itemPath>../src/config/atm90e36_spi_samd20/system/system.h</itemPath>
+            <itemPath>../src/config/atm90e36_spi_samd20/system/system_module.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/config/atm90e36_spi_samd20/sys_tasks.h</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/interrupts.h</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/toolchain_specifics.h</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/device.h</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/user.h</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/definitions.h</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/device_vectors.h</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/device_cache.h</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/configuration.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="metrology" displayName="metrology" projectFiles="true">
+        <logicalFolder name="atm90exx" displayName="atm90exx" projectFiles="true">
+          <itemPath>../src/metrology/atm90exx/atm90exx_api.h</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90exx_api_events.h</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90exx_conf.h</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90exx_defs.h</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90exx_drv.h</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90exx_hal.h</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90exx_regs.h</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90e36_regs.h</itemPath>
+        </logicalFolder>
+        <itemPath>../src/metrology/metrology_api.h</itemPath>
+        <itemPath>../src/metrology/metrology_api_events.h</itemPath>
+        <itemPath>../src/metrology/metrology_conf.h</itemPath>
+        <itemPath>../src/metrology/metrology_defs.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="packs" displayName="packs" projectFiles="true">
+        <logicalFolder name="ATSAMD20J18_DFP"
+                       displayName="ATSAMD20J18_DFP"
+                       projectFiles="true">
+          <logicalFolder name="component" displayName="component" projectFiles="true">
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/adc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/pm.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/port.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/tc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/fuses.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/evsys.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/sercom.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/dac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/sysctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/gclk.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/wdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/ptc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/ac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/dsu.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/pac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/component/eic.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="instance" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/pac0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/ptc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom4.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom5.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/ac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sysctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/fuses.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/port.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/dac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom3.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/dsu.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/wdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/eic.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc7.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/gclk.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc6.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc5.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/evsys.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/pm.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc4.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/adc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc3.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/pac2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/pac1.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="pio" displayName="pio" projectFiles="true">
+            <itemPath>../src/packs/ATSAMD20J18_DFP/pio/samd20j18.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/packs/ATSAMD20J18_DFP/samd20j18.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../src/app_console.h</itemPath>
+      <itemPath>../src/app_metrology.h</itemPath>
+      <itemPath>../src/app_energy.h</itemPath>
+      <itemPath>../src/app_datalog.h</itemPath>
+      <itemPath>../src/app_display.h</itemPath>
+      <itemPath>../src/app_events.h</itemPath>
+      <itemPath>../src/oled1_display.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <itemPath>Makefile</itemPath>
+      <itemPath>metering_demo_atm90e36_spi_samd20.mc3</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="atm90e36_spi_samd20"
+                       displayName="atm90e36_spi_samd20"
+                       projectFiles="true">
+          <itemPath>../src/config/atm90e36_spi_samd20/ATSAMD20J18.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="atm90e36_spi_samd20"
+                       displayName="atm90e36_spi_samd20"
+                       projectFiles="true">
+          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
+            <itemPath>../src/config/atm90e36_spi_samd20/bsp/bsp.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="driver" displayName="driver" projectFiles="true">
+            <logicalFolder name="sdspi" displayName="sdspi" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/sdspi/src/drv_sdspi.c</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/sdspi/src/drv_sdspi_file_system.c</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/sdspi/src/drv_sdspi_plib_interface.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="spi" displayName="spi" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/driver/spi/src/drv_spi.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="clock" displayName="clock" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/clock/plib_clock.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="eic" displayName="eic" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/eic/plib_eic.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/evsys/plib_evsys.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/nvic/plib_nvic.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="nvmctrl" displayName="nvmctrl" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/nvmctrl/plib_nvmctrl.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="pm" displayName="pm" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/pm/plib_pm.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="port" displayName="port" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/port/plib_port.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/rtc/plib_rtc_clock.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
+              <logicalFolder name="spi_master" displayName="spi_master" projectFiles="true">
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/spi_master/plib_sercom5_spi_master.c</itemPath>
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/spi_master/plib_sercom1_spi_master.c</itemPath>
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/spi_master/plib_sercom0_spi_master.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
+                <itemPath>../src/config/atm90e36_spi_samd20/peripheral/sercom/usart/plib_sercom3_usart.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="tc" displayName="tc" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/tc/plib_tc0.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="wdt" displayName="wdt" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/peripheral/wdt/plib_wdt.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+            <itemPath>../src/config/atm90e36_spi_samd20/stdio/xc32_monitor.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="system" displayName="system" projectFiles="true">
+            <logicalFolder name="command" displayName="command" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/command/src/sys_command.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="console" displayName="console" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/console/src/sys_console_uart.c</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/console/src/sys_console.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="debug" displayName="debug" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/debug/src/sys_debug.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="dma" displayName="dma" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/dma/sys_dma.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="fs" displayName="fs" projectFiles="true">
+              <logicalFolder name="fat_fs" displayName="fat_fs" projectFiles="true">
+                <logicalFolder name="file_system" displayName="file_system" projectFiles="true">
+                  <itemPath>../src/config/atm90e36_spi_samd20/system/fs/fat_fs/file_system/ff.c</itemPath>
+                  <itemPath>../src/config/atm90e36_spi_samd20/system/fs/fat_fs/file_system/ffunicode.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="hardware_access"
+                               displayName="hardware_access"
+                               projectFiles="true">
+                  <itemPath>../src/config/atm90e36_spi_samd20/system/fs/fat_fs/hardware_access/diskio.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/fs/src/sys_fs_fat_interface.c</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/fs/src/sys_fs_media_manager.c</itemPath>
+              <itemPath>../src/config/atm90e36_spi_samd20/system/fs/src/sys_fs.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="int" displayName="int" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/int/src/sys_int.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="reset" displayName="reset" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/reset/sys_reset.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="time" displayName="time" projectFiles="true">
+              <itemPath>../src/config/atm90e36_spi_samd20/system/time/src/sys_time.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>../src/config/atm90e36_spi_samd20/exceptions.c</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/libc_syscalls.c</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/startup_xc32.c</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/interrupts.c</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/initialization.c</itemPath>
+          <itemPath>../src/config/atm90e36_spi_samd20/tasks.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="gfx_mono" projectFiles="true">
+        <itemPath>../src/gfx_mono/gfx_definitions.h</itemPath>
+        <itemPath>../src/gfx_mono/gfx_mono.h</itemPath>
+        <itemPath>../src/gfx_mono/gfx_mono_framebuffer.c</itemPath>
+        <itemPath>../src/gfx_mono/gfx_mono_framebuffer.h</itemPath>
+        <itemPath>../src/gfx_mono/gfx_mono_generic.c</itemPath>
+        <itemPath>../src/gfx_mono/gfx_mono_generic.h</itemPath>
+        <itemPath>../src/gfx_mono/gfx_mono_text.c</itemPath>
+        <itemPath>../src/gfx_mono/gfx_mono_text.h</itemPath>
+        <itemPath>../src/gfx_mono/gfx_mono_ug_2832hsweg04.c</itemPath>
+        <itemPath>../src/gfx_mono/gfx_mono_ug_2832hsweg04.h</itemPath>
+        <itemPath>../src/gfx_mono/gfx_ssd1306.c</itemPath>
+        <itemPath>../src/gfx_mono/gfx_ssd1306.h</itemPath>
+        <itemPath>../src/gfx_mono/gfx_sysfont.c</itemPath>
+        <itemPath>../src/gfx_mono/gfx_sysfont.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="metrology" displayName="metrology" projectFiles="true">
+        <logicalFolder name="atm90exx" displayName="atm90exx" projectFiles="true">
+          <itemPath>../src/metrology/atm90exx/atm90exx_api.c</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90exx_api_events.c</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90exx_drv.c</itemPath>
+          <itemPath>../src/metrology/atm90exx/atm90exx_hal.c</itemPath>
+        </logicalFolder>
+        <itemPath>../src/metrology/metrology_api.c</itemPath>
+        <itemPath>../src/metrology/metrology_api_events.c</itemPath>
+      </logicalFolder>
+      <itemPath>../src/main.c</itemPath>
+      <itemPath>../src/config/atm90e36_spi_samd20/pin_configurations.csv</itemPath>
+      <itemPath>../src/oled1_display.c</itemPath>
+      <itemPath>../src/app_console.c</itemPath>
+      <itemPath>../src/app_events.c</itemPath>
+      <itemPath>../src/app_metrology.c</itemPath>
+      <itemPath>../src/app_datalog.c</itemPath>
+      <itemPath>../src/app_energy.c</itemPath>
+      <itemPath>../src/app_display.c</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="atm90e36_spi_samd20" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAMD20J18</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>EdbgTool</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
+        <pack name="SAMD20_DFP" vendor="Microchip" version="3.6.112"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="true"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="false"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/atm90e36_spi_samd20;../src/config/atm90e36_spi_samd20/system/fs/fat_fs/file_system;../src/config/atm90e36_spi_samd20/system/fs/fat_fs/hardware_access;../src/packs/ATSAMD20J18_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="true"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="true"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="tentative-definitions" value="-fno-common"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-CO>
+        <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
+      </C32-CO>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="additional-options-write-sla" value="false"/>
+        <property key="allocate-dinit" value="false"/>
+        <property key="appendMe" value=""/>
+        <property key="code-dinit" value="false"/>
+        <property key="ebase-addr" value=""/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value="1024"/>
+        <property key="input-libraries" value=""/>
+        <property key="kseg-length" value=""/>
+        <property key="kseg-origin" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-device-startup-code" value="true"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="serial-length" value=""/>
+        <property key="serial-origin" value=""/>
+        <property key="stack-size" value="4096"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="false"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/atm90e36_spi_samd20;../src/config/atm90e36_spi_samd20/system/fs/fat_fs/file_system;../src/config/atm90e36_spi_samd20/system/fs/fat_fs/hardware_access;../src/config/default;../src/config/default/system/fs/fat_fs/file_system;../src/config/default/system/fs/fat_fs/hardware_access;../src/packs/ATSAMD20J18_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="true"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
+      <C32Global>
+        <property key="common-include-directories" value=""/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="false"/>
+        <property key="mdtcm" value=""/>
+        <property key="mitcm" value=""/>
+        <property key="mstacktcm" value="false"/>
+        <property key="omit-pack-options" value="1"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="stack-smashing" value=""/>
+        <property key="wpo-lto" value="false"/>
+      </C32Global>
+      <EdbgTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="arm.use_vtor" value="false"/>
+        <property key="arm.vtor_adr" value="exception_table"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="event.recorder.debugger.behavior" value="Running"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="loader.board_file" value="${ProjectDir}/board.xboard"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-3ffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/M19888/Sergio/RepoGit/metering_demo_atm90exx/firmware/metering_demo_atm90e36_spi_samd20.X/debug/default/metering_demo_atm90e36_spi_samd20_ptg"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="script.has_reset" value="true"/>
+        <property key="script.log_level" value="1"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value=""/>
+        <property key="x.erase.clearprot" value="true"/>
+      </EdbgTool>
+      <Tool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="arm.use_vtor" value="false"/>
+        <property key="arm.vtor_adr" value="exception_table"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="event.recorder.debugger.behavior" value="Running"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="loader.board_file" value="${ProjectDir}/board.xboard"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-3ffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/M19888/Sergio/RepoGit/metering_demo_atm90exx/firmware/metering_demo_atm90e36_spi_samd20.X/debug/default/metering_demo_atm90e36_spi_samd20_ptg"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="script.has_reset" value="true"/>
+        <property key="script.log_level" value="1"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value=""/>
+        <property key="x.erase.clearprot" value="true"/>
+      </Tool>
+    </conf>
+  </confs>
+</configurationDescriptor>
